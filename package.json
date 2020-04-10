@@ -7,10 +7,15 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.2.0",
+    "serve" : "11.3.0"
   },
   "scripts": {
+    "preweb" : "react-scripts build",
+    "web" : "serve -s build",
     "start": "react-scripts start",
+    "build" : "react-scripts build",
+    "serve" : "react-scripts serve",
     "build:css" : "npx tailwindcss build src/style/styles.css -o src/dist/styles.css"
   },
   "browserslist": {
