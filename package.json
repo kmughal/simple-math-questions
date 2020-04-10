@@ -8,18 +8,18 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "tailwindcss": "^1.2.0",
-    "serve" : "11.3.0",
-    "express" : "4.17.1",
+    "serve": "11.3.0",
+    "express": "4.17.1",
     "gh-pages": "2.2.0"
   },
   "scripts": {
-    "preweb" : "react-scripts build",
-    "eject" : "react-scripts eject",
-    "web" : "serve -s build",
     "start": "react-scripts start",
-    "build" : "react-scripts build",
-    "serve" : "react-scripts serve",
-    "build:css" : "npx tailwindcss build src/style/styles.css -o src/dist/styles.css"
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build:css": "npx tailwindcss build src/style/styles.css -o src/dist/styles.css"
   },
   "browserslist": {
     "production": [
