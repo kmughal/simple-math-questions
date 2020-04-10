@@ -12,6 +12,7 @@
   },
   "scripts": {
     "preweb" : "react-scripts build",
+    "eject" : "react-scripts eject",
     "web" : "serve -s build",
     "start": "react-scripts start",
     "build" : "react-scripts build",
