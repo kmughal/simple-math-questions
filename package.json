@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": " https://kmughal.github.io/simple-math-questions/",
+  "homepage": "https://kmughal.github.io/simple-math-questions",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
